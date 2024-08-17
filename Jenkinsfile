@@ -10,7 +10,8 @@ pipeline {
         // app_repo=''
         // build_repo=''
         // test_repo=''
-
+        SHELL = 'C:\\Program Files\\Git\\bin\\bash.exe'
+        
         parabank_port=8090
         ls_url="${PARASOFT_LS_URL}"
         ls_user="${PARASOFT_LS_USER}"
