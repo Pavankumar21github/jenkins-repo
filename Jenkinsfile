@@ -25,7 +25,7 @@ pipeline {
                     echo ${ls_user}
                     ls -R    
                     
-                    git clone -b tia 'https://github.com/gtrofimov/jenkins.git' 
+                    git clone -b tia 'https://github.com/Pavankumar21github/jenkins-repo.git' 
                 
                     git clone -b selenium-demo 'https://github.com/parasoft/parabank.git'
                     ls -la
